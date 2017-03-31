@@ -1,0 +1,26 @@
+{
+    "name": "RML",
+    "displayName": "RML",
+    "description": "RML language support for vs code.",
+    "version": "0.0.1",
+    "publisher": "shitake",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rml",
+            "aliases": ["RML", "rml"],
+            "extensions": [".rml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rml",
+            "scopeName": "source.rml",
+            "path": "./syntaxes/rml.tmLanguage.json"
+        }]
+    }
+}

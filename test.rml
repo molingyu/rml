@@ -1,0 +1,22 @@
+/*
+
+dddd
+c*/
+import "core-v11.2.1" //
+
+View {
+  Button {
+    x: 233,
+    y: "1324",
+    z: /x/,
+    a: false
+  }
+}
+
+a true
+
+ false
+
+ null
+
+undefined 
